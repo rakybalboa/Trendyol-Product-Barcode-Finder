@@ -27,7 +27,7 @@ print(data.decode("utf-8")) """
 
 import requests
 
-url = 'https://www.trendyol.com/rise-and-shine/antiperspirant-whitening-roll-on-75-ml-p-316160450'
+url = input("Paste the url of the product")
 
 
 req = requests.get(url, 'html.parser')
